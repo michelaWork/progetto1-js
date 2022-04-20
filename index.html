@@ -4,21 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- import css -->
+    <link rel="stylesheet" href="style.css">
+    <title>esercitazione javascript</title>
+</head>
+<body>
+
+    <!-- esercizio 1 -->
+    <div class="container">
+        <h2>Esercizio 1</h2>
+        <div class="form-group">
+            <label for="num1">Primo Numero</label><br>
+            <input type="number" id="num1" placeholder="scegli un numero">
+        </div>
+        <div class="form-group">
+            <label for="num2">Secondo Numero</label><br>
+            <input type="number" id="num2" placeholder="scegli un numero">
+        </div>
+        <div class="form-group">
+            <label for="op">Operazione</label><br>
+            <input type="text" id="op" placeholder="inserisci l'operazione">
+            <button onclick="calculator()" class="btn-grad">calcola</button>
+        </div>
+        <p id="ris"></p>
+    </div>
+
+    <!-- esercizio 3 -->
+    <div class="container">
+        <h2>Esercizio 3</h2>
+        <div class="form-group">
+            <input type="text" id="marca" placeholder="inserisci una marca">
+            <button onclick="trova_modello()" class="btn-grad">trova modello</button><br>
+        </div>
+        <div id="test"></div>
+    </div>
+
+    <!-- import js files -->
     <script src="es1.js"></script>
     <script src="es2.js"></script>
     <script src="es3.js"></script>
-    <title>esercitazione javascript</title> 
-</head>
-<body>
-    <input type="number" id="num1">
-    <input type="number" id="num2">
-    <label >operation</label>
-    <input type="text" id="op">
-    <button onclick="calculator()"> vai </button>
-    <p id="ris"></p> 
-    <input type="text" id="marca">
-    <button onclick="trova_modello()">trova modello</button>
-    <div id="test"></div>
 </body>
-
 </html>

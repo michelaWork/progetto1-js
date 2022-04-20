@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #34373a;
+    color: white;
+    font-size: 16px;
+    margin: 40px;
+}
+
+h2{
+    color: #e52d27;
+}
+
+input{
+    height: 22px;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+button{
+    padding: 7px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;            
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    margin: 30px 0;
+}
+
+.form-group{
+    margin: 20px 0;
+}
