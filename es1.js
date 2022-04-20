@@ -27,8 +27,6 @@ function calculator(){
             break;
         default:
             ris = console.log('operazione non disponibile');
-      }  
-      
+    }    
 }
-console.log(this.ris) 
 
